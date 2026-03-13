@@ -1,0 +1,15 @@
+-- initial migration
+CREATE TABLE "User" (
+  "id" SERIAL PRIMARY KEY,
+  "email" VARCHAR(255) UNIQUE NOT NULL,
+  "name" VARCHAR(255) NULL,
+  "createdAt" TIMESTAMP WITHOUT TIME ZONE DEFAULT NOW()
+);
+
+CREATE TABLE "Job" (
+  "id" SERIAL PRIMARY KEY,
+  "title" VARCHAR(255) NULL,
+  "description" TEXT NULL,
+  "status" VARCHAR(50) NULL,
+  "createdAt" TIMESTAMP WITHOUT TIME ZONE DEFAULT NOW()
+);
