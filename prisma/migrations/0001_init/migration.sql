@@ -1,0 +1,1 @@
+CREATE TABLE "Tenant" ("id" TEXT PRIMARY KEY, "name" TEXT NOT NULL);

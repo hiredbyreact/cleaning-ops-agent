@@ -1,0 +1,14 @@
+{
+  "name": "startup-box-cleaning-ops",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "prisma",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -w -r build",
+    "dev": "pnpm -w -r dev",
+    "start": "pnpm -w -r start"
+  }
+}

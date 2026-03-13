@@ -1,0 +1,16 @@
+/* Global styles for CleanOps web */
+:root {
+  --bg: #0b1020;
+  --fg: #eaeefc;
+  --accent: #4f8ef7;
+}
+html, body, #__next {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Arial;
+  background: linear-gradient(135deg, #0b1020 0%, #1b1f2a 100%);
+  color: #e7eaf6;
+}
+a { color: var(--accent); text-decoration: none; }

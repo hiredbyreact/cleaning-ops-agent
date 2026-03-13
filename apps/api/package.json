@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "nest build",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "9.0.0",
+    "@nestjs/core": "9.0.0",
+    "@nestjs/platform-express": "9.0.0",
+    "@nestjs/config": "3.0.0",
+    "@nestjs/swagger": "6.0.0",
+    "nestjs": "9.0.0",
+    "tslib": "^2.4.0"
+  },
+  "devDependencies": {
+    "typescript": "5.3.4",
+    "ts-node": "10.9.1"
+  }
+}
