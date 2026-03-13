@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+
+# Logs
+pnpm-debug.log*
+*.log
+
+# OS
+.DS_Store
+
+# PNPM store
+.pnpm-store/
+.kitchen/
+.env
+.env.*

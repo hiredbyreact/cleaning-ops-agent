@@ -1,0 +1,19 @@
+{
+  "name": "cleaning-ops-agent",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "build": "pnpm -w build",
+    "start:web": "pnpm --filter web start",
+    "start:api": "pnpm --filter api start",
+    "lint": "echo \"lint placeholder\""
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@8"
+}
