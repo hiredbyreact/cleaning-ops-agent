@@ -1,0 +1,18 @@
+-- Initial Prisma migration
+
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+CREATE TABLE IF NOT EXISTS "User" (
+  "id" UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  "email" TEXT NOT NULL UNIQUE,
+  "name" TEXT,
+  "createdAt" TIMESTAMP WITHOUT TIME ZONE NOT NULL DEFAULT NOW(),
+  "updatedAt" TIMESTAMP WITHOUT TIME ZONE NOT NULL DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS "_prisma_migrations" (
+  "id" SERIAL PRIMARY KEY,
+  "version" VARCHAR(255) NOT NULL,
+  "name" VARCHAR(255) NOT NULL,
+  "applied_at" TIMESTAMP(3) WITHOUT TIME ZONE NOT NULL
+);
