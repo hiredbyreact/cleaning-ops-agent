@@ -1,0 +1,10 @@
+{
+  "name": "@cleaning/shared",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "packageManager": "pnpm@8.6.0",
+  "license": "MIT",
+  "dependencies": {}
+}

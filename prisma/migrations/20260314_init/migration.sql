@@ -1,0 +1,11 @@
+CREATE TABLE "User" (
+  "id" SERIAL PRIMARY KEY,
+  "email" VARCHAR(255) NOT NULL UNIQUE,
+  "name" VARCHAR(255)
+);
+
+CREATE TABLE "Job" (
+  "id" SERIAL PRIMARY KEY,
+  "title" VARCHAR(255) NOT NULL,
+  "status" VARCHAR(100) NOT NULL
+);
