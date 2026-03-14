@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc -p tsconfig.json",
+    "start:dev": "ts-node-esm src/main.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "9.x",
+    "@nestjs/core": "9.x",
+    "@nestjs/platform-express": "9.x",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0",
+    "typescript": "^5.2.0",
+    "ts-node": "^10.9.1",
+    "@prisma/client": "^5.0.0",
+    "@nestjs/config": "^1.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.0.0"
+  }
+}
