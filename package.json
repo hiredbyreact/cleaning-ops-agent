@@ -1,0 +1,15 @@
+{
+  "name": "cleaning-ops-agent",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "pnpm@8.0.0",
+  "scripts": {
+    "dev": "pnpm -w -r run dev",
+    "build": "pnpm -w -r run build",
+    "start": "pnpm -w -r run start"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+.env.test
+pnpm-debug.log*
+coverage/
+*.log
