@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "cleaning-ops-agent",
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "prisma"
+  ],
+  "scripts": {
+    "build": "echo \"Build not implemented in placeholder monorepo. Run docker-compose for local.run.\"",
+    "start": "echo \"Start: use docker-compose to run web/api.\"",
+    "lint": "echo \"lint not configured in placeholder.\""
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
