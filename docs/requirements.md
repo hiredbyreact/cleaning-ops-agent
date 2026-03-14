@@ -1,0 +1,1 @@
+Technical requirements: Next.js + NestJS + Prisma + PostgreSQL + Docker Compose. Development prerequisites: Node.js 18+, pnpm, Docker. Suggested local workflow: run docker-compose up, then visit http://localhost:3000 for the web app and http://localhost:3001 for the API.

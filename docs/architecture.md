@@ -1,0 +1,1 @@
+Architecture overview for the CleanOps platform. This document describes the high-level architecture including the separate web (Next.js) and api (NestJS) services, Prisma ORM, and a workflow orchestrator. It is intentionally concise to serve as an internal reference.

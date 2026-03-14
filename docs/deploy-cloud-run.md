@@ -1,0 +1,1 @@
+Cloud Run deployment notes for the web and api services. The instructions assume container images are built via Dockerfiles and composed with docker-compose in local development, with cloud deployment using Run/Functions as a service when applicable.
