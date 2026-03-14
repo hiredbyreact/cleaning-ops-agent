@@ -1,0 +1,16 @@
+{
+  "name": "cleaning-ops-agent",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "build": "pnpm -w build",
+    "start": "pnpm -w start",
+    "lint": "echo Linting not configured"
+  },
+  "packageManager": "pnpm@8.x"
+}
