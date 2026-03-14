@@ -1,0 +1,1 @@
+Requirements: vertical SaaS for commercial cleaning ops; includes lead intake, quotes, scheduling, QA, invoicing.
