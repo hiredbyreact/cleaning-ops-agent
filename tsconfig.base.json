@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["packages/shared/src/*"],
+      "@workflows/*": ["packages/workflows/src/*"]
+    },
+    "strict": true,
+    "target": "ES2020",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["*.ts", "*.tsx", "apps/**/*", "packages/**/*"]
+}
