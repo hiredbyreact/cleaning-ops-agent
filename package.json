@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "cleaning-ops-agent",
+  "version": "0.1.0",
+  "packageManager": "pnpm@8",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
