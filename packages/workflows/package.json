@@ -1,0 +1,11 @@
+{
+  "name": "workflows",
+  "private": true,
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "echo building workflows",
+    "start": "node -e \"console.log(\'workflows service running\')\""
+  }
+}
